@@ -1,0 +1,19 @@
+base_url = "/"
+compile_sass = true
+title = "Test"
+highlight_code = true
+highlight_theme = "kronuz"
+build_search_index = true
+
+taxonomies = [
+    {name = "tags", rss = true},
+    {name = "authors", rss = true},
+]
+
+[extra]
+main_menu = [
+    { link = "/documentation", name = "Documentation" },
+    { link = "/lorem_ipsum", name = "Lorem Ipsum" },
+    { link = "/test_content", name = "Test Content" },
+    { link = "/search", name = "Search" }
+]
